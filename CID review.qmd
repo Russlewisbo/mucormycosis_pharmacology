@@ -1,23 +1,27 @@
 ---
-title: "CID mucormycosis"
+title: ""
 format: html
 editor: visual
+bibliography: references.bib
+csl: clinical-infectious-diseases.csl
 ---
 
-## \# The Pharmacology of Mucormycosis Treatment
+## What is the Pharmacological Basis of Mucormycosis Therapy?
 
 Russell E. Lewis,. Pharm.D., FCCP
 
-Associate Professor, Infectious Diseases
+Associate Professor, Infectious Diseases, Department of Molecular Microbiology
 
-Department of Molecular Microbiology
+University of Padua
 
-University of Padua, Padua, ITaly
+## Abstract
 
-\## Abstract
+## Introduction
 
-Survival from invasive mucormycosis often depends on the timely administration of effective systemic antifungal therapy.
+Mucormycosis refers to a spectrum of diseases caused by fungi in the order Mucorales that frequently present as aggressive rhino-orbital- cerebral infections or pneumonia in the severely immunocompromised or diabetic patient. Survival from the infection often depends on reversal of underlying predisposing (immunosuppressive) conditions, surgical resection of infected tissue, and the timely administration of effective antifungal therapy before spreads or disseminates to other organs [@Chamilos2008503].
 
-\## Introduction
+Amphotericin B has long been considered the drug of choice for mucormycosis with most clinicians over the last 20 years favouring administration of the less-nephrotoxic liposomal formulation at higher-doses (5-10 mg/kg/day) to rapidly load target tissues of the infection such as the lung and brain\[@groll_etal19\]. Patients are often switched to posaconazole or isavuconazole once the infection has stabilized, or if their is lack of clinical response or intolerance to amphotericin B \[@cornely_etal19a; @kontoyiannis_lewis11\]. However, there are no randomized trials assessing the efficacy of antifungal regimens for mucormycosis given the rarity of the infection.
 
-Mucormycosis encompasses a spectrum of infections caused by fungi in the Order Mucormycotina with a predisposition for causing aggressive rhino-orbital-cerebral and pulmonary infections in severely immunocompromised hosts and patients with diabetic ketoacidosis. Patient survival depends on early diagnosis, reversal of predisposing immunosuppressive risk factors and/or hyperglycemia, surgical resection of necrotic tissue when feasible, and the timely administration of effective systemic antifungal therapy. For more than 40 years, amphotericin B-based regimens have been the cornerstone for the treatment of mucormycosis, although the optimal dosing approach, particuliarly for liposomal amphotericin B,
+Current antifungal treatment strategies/dosing for mucormycosis have been largely derived empirically from evidence translated from other invasive mold diseases such as aspergillosis, preclinical animal models, and limited observational case series or uncontrolled trials [@cornely_etal19a]. In the previous Henry Schuler Supplement on Mucormycosis [@lewis_etal12], we examined the possible
+
+## References
