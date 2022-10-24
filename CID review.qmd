@@ -1,0 +1,23 @@
+---
+title: "CID mucormycosis"
+format: html
+editor: visual
+---
+
+## \# The Pharmacology of Mucormycosis Treatment
+
+Russell E. Lewis,. Pharm.D., FCCP
+
+Associate Professor, Infectious Diseases
+
+Department of Molecular Microbiology
+
+University of Padua, Padua, ITaly
+
+\## Abstract
+
+Survival from invasive mucormycosis often depends on the timely administration of effective systemic antifungal therapy.
+
+\## Introduction
+
+Mucormycosis encompasses a spectrum of infections caused by fungi in the Order Mucormycotina with a predisposition for causing aggressive rhino-orbital-cerebral and pulmonary infections in severely immunocompromised hosts and patients with diabetic ketoacidosis. Patient survival depends on early diagnosis, reversal of predisposing immunosuppressive risk factors and/or hyperglycemia, surgical resection of necrotic tissue when feasible, and the timely administration of effective systemic antifungal therapy. For more than 40 years, amphotericin B-based regimens have been the cornerstone for the treatment of mucormycosis, although the optimal dosing approach, particuliarly for liposomal amphotericin B,
