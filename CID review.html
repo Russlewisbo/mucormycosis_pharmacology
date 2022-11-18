@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.37">
+<meta name="generator" content="quarto-1.2.258">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,10 +11,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
@@ -65,9 +70,8 @@ div.csl-indent {
 <p><sup>1</sup>Associate Professor, Infectious Diseases Department of Molecular Medicine, University of Padua , Padua, Italy</p>
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>Mucormycosis encompasses a spectrum of diseases caused by fungi in the order Mucorales that have a predisposition for causing aggressive, life-threatening pneumonia or rhino-orbital- cerebral infection in the severely immunocompromised, transplant or diabetic patients. Survival from these infections often depends on reversal of underlying predisposing metabolic or immunosuppressive conditions, surgical resection of infected tissue, and the timely administration of effective antifungal therapy. <span class="citation" data-cites="Chamilos2008503 jeong2015">[<a href="#ref-Chamilos2008503" role="doc-biblioref">1</a>,<a href="#ref-jeong2015" role="doc-biblioref"><strong>jeong2015?</strong></a>]</span>. Unfortunately, limited diagnostic tools and effective treatment options contributes to the high mortality associated with invasive mucormycosis. These challenges recently prompted the World Health Organization (WHO) to classify invasive mucormycosis as a fungal pathogen of “High Priority” for further research and development needs.</p>
-<p>Amphotericin B is the long-standing drug of choice for mucormycosis <span class="citation" data-cites="cornely_etal19a">[<a href="#ref-cornely_etal19a" role="doc-biblioref">2</a>]</span>with most clinicians favouring administration of the less-nephrotoxic liposomal amphotericin B formulation at higher-doses (5-10 mg/kg/day) to rapidly load target tissues such as the lung and brain with amphotericin B to slow fungal tissue invasion and dissemination into these <span class="citation" data-cites="groll_etal19">[<a href="#ref-groll_etal19" role="doc-biblioref">3</a>]</span>. Patients with lack of clinical response or intolerance to amphotericin B may be switched to posaconazole or isavuconazole, or transitioned to oral formulations of these triazoles once infection has stabilized to complete therapy<span class="citation" data-cites="kontoyiannis_lewis11 cornely_etal19a">[<a href="#ref-cornely_etal19a" role="doc-biblioref">2</a>,<a href="#ref-kontoyiannis_lewis11" role="doc-biblioref">4</a>]</span>. Yet, the treatment of mucormycosis is still limited by the lack of effective treatment alternatives who cannot tolerate front-line therapies because of toxicities, drug interactions, or are infected with multidrug-resistant strains [ ]</p>
-<p>In the previous monograph published from the First International Henry Schueler Supplement on Mucormycosis <span class="citation" data-cites="lewis_etal12">[<a href="#ref-lewis_etal12" role="doc-biblioref">5</a>]</span>, we examined how antifungal pharmacology and resistance differs for Mucorales versus more common <em>Aspergillus</em> infections. Since the publication of this monograph, new data has been published on Mucorales species-specific susceptibility profiles, triazole pharmacokinetic/pharmacodynamics (PK/PD), and the antifungal pipeline has grown (?) with several possible new therapeutic classes that may have a role for refractory infections. In this monograph, we will review the pharmacological basis for antifungal therapy in mucormycosis with a particular focus on new data published in the last 5-10 years that may shape future treatment strategies for this devastating infection.</p>
+<p>Mucormycosis encompasses a spectrum of diseases caused by fungi in the order Mucorales that frequently present as aggressive, life-threatening pneumonia or rhino-orbital- cerebral infection in the severely immunocompromised or patients with poorly-controlled diabetes. Survival from the infection depends on the reversal of underlying predisposing metabolic or immunosuppressive conditions, surgical resection of infected tissue, and the timely administration of effective antifungal therapy [<span class="citation" data-cites="Chamilos2008503">[<a href="#ref-Chamilos2008503" role="doc-biblioref">1</a>]</span>;]. Challenges associated the early diagnosis and the limited number of effective treatment options recently lead the World Health Organization (WHO) to classified invasive mucormycosis as a fungal pathogen of “High Priority” for further research [WHO citation]</p>
+<p>In the First International Henry Schueler Symposium, we examined how antifungal pharmacology and resistance differs for Mucorales versus more common <em>Aspergillus</em> infections<span class="citation" data-cites="lewis_etal12">[<a href="#ref-lewis_etal12" role="doc-biblioref">2</a>]</span>. Since the publication of that supplement, new data have emerged concerning Mucorales species-specific susceptibility profiles, antifungal pharmacokinetic/pharmacodynamics (PK/PD), and investigational agents with possible efficacy against mucormycosis <em>in vivo</em>. In this monograph, we will review these recent data and highlight persistent areas of uncertainty regarding drug selection and dosing for mucormycosis that need to be addressed to better support treatment strategies for this devestating infection.</p>
 </section>
 <section id="pharmacodynamic-challenges" class="level2">
 <h2 class="anchored" data-anchor-id="pharmacodynamic-challenges">Pharmacodynamic challenges</h2>
@@ -145,17 +149,8 @@ div.csl-indent {
 <div id="ref-Chamilos2008503" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">1. </div><div class="csl-right-inline">Chamilos G, Lewis RE, Kontoyiannis DP. <a href="https://doi.org/10.1086/590004">Delaying amphotericin <span class="nocase">B-based</span> frontline therapy significantly increases mortality among patients with hematologic malignancy who have zygomycosis</a>. Clinical Infectious Diseases <strong>2008</strong>; 47:503–509. </div>
 </div>
-<div id="ref-cornely_etal19a" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">2. </div><div class="csl-right-inline">Cornely OA, Alastruey-Izquierdo A, Arenz D, et al. <a href="https://doi.org/10.1016/S1473-3099(19)30312-3">Global guideline for the diagnosis and management of mucormycosis: An initiative of the <span>European Confederation</span> of <span>Medical Mycology</span> in cooperation with the <span>Mycoses Study Group Education</span> and <span>Research Consortium</span></a>. The Lancet infectious diseases <strong>2019</strong>; 19:e405–e421. </div>
-</div>
-<div id="ref-groll_etal19" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">3. </div><div class="csl-right-inline">Groll AH, Rijnders BJA, Walsh TJ, Adler-Moore J, Lewis RE, Brüggemann RJM. <a href="https://doi.org/10.1093/cid/ciz076">Clinical <span>Pharmacokinetics</span>, <span>Pharmacodynamics</span>, <span>Safety</span> and <span>Efficacy</span> of <span>Liposomal Amphotericin B</span></a>. Clinical infectious diseases: an official publication of the Infectious Diseases Society of America <strong>2019</strong>; 68:S260–S274. </div>
-</div>
-<div id="ref-kontoyiannis_lewis11" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">4. </div><div class="csl-right-inline">Kontoyiannis DP, Lewis RE. <a href="https://doi.org/10.1182/blood-2011-03-316430">How <span>I</span> treat mucormycosis</a>. Blood <strong>2011</strong>; 118:1216–1224. </div>
-</div>
 <div id="ref-lewis_etal12" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">5. </div><div class="csl-right-inline">Lewis RE, Lortholary O, Spellberg B, Roilides E, Kontoyiannis DP, Walsh TJ. <a href="https://doi.org/10.1093/cid/cir884">How does antifungal pharmacology differ for mucormycosis versus aspergillosis?</a> Clinical infectious diseases: an official publication of the Infectious Diseases Society of America <strong>2012</strong>; 54 Suppl 1:S67–S72. </div>
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Lewis RE, Lortholary O, Spellberg B, Roilides E, Kontoyiannis DP, Walsh TJ. <a href="https://doi.org/10.1093/cid/cir884">How does antifungal pharmacology differ for mucormycosis versus aspergillosis?</a> Clinical infectious diseases: an official publication of the Infectious Diseases Society of America <strong>2012</strong>; 54 Suppl 1:S67–S72. </div>
 </div>
 </div></section></div></main>
 <!-- /main column -->
@@ -200,7 +195,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -228,31 +240,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
